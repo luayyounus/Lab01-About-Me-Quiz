@@ -5,6 +5,7 @@ namespace AboutMeQuiz
 {
     class Program
     {
+        //Question 1
         public static bool Car()
         {
             Console.WriteLine("\nWhat brand was my first car? Pick a Number." +
@@ -15,10 +16,13 @@ namespace AboutMeQuiz
             return userInput == 2;
         }
 
+        //Question 2 and 3
         public static int[] YearAndMonthMovedToUsa()
         {
             Console.WriteLine("\nWhat year did I move to the USA, 2015 or 2016?");
             int[] monthAndYear = new int[2];
+
+            //Checking if the user has entered anything other than an int number
             try
             {
                 var year = int.Parse(Console.ReadLine());
@@ -42,7 +46,7 @@ namespace AboutMeQuiz
             return monthAndYear;
         }
 
-
+        //Question 4
         public static string FavoriteCartoon()
         {
             Console.WriteLine("\nWhat is on of my favorite Cartoons?" +
@@ -54,7 +58,7 @@ namespace AboutMeQuiz
             return cartoon == 2 ? "Tom and Jerry" : "Meh";
         }
 
-
+        //Question 5
         public static int FavoriteNumber()
         {
             Console.WriteLine("\nWhat's my favorite number?");
@@ -63,6 +67,7 @@ namespace AboutMeQuiz
             return -1;
         }
 
+        //Game on method that calls the questions methods and keep a counter for correct/incorrect answers
         public static bool GameOn()
         {
             int correctAnswers = 0;
@@ -98,6 +103,7 @@ namespace AboutMeQuiz
             return userInput == "R";
         }
 
+        //Starting the quiz with this main Method - this works like a menu options
         public static void GameStart()
         {
             Console.WriteLine("Welcome to the about me Quiz!");
