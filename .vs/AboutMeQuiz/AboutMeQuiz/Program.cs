@@ -15,6 +15,33 @@ namespace AboutMeQuiz
             return userInput == 2;
         }
 
+        public static int[] YearAndMonthMovedToUsa()
+        {
+            Console.WriteLine("\nWhat year did I move to the USA, 2015 or 2016?");
+            int[] monthAndYear = new int[2];
+            try
+            {
+                var year = int.Parse(Console.ReadLine());
+                monthAndYear[0] = year;
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine($"Exception Message: {e.Message}");
+                Console.WriteLine("My custom catch message: Error entering the year.");
+                Console.ReadLine();
+            }
+            finally
+            {
+                Console.WriteLine(@"//The finally block works :)");
+            }
+
+            Console.WriteLine("\nWhat month of that year was it? pick 1-12");
+            var month = int.Parse(Console.ReadLine());
+            monthAndYear[1] = month;
+
+            return monthAndYear;
+        }
+
         public static bool GameOn()
         {
             return true;
