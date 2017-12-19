@@ -54,6 +54,15 @@ namespace AboutMeQuiz
             return cartoon == 2 ? "Tom and Jerry" : "Meh";
         }
 
+
+        public static int FavoriteNumber()
+        {
+            Console.WriteLine("\nWhat's my favorite number?");
+            var fav = Console.ReadLine();
+            if (int.Parse(fav) == 1) return 1;
+            return -1;
+        }
+
         public static bool GameOn()
         {
             return true;
