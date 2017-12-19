@@ -1,0 +1,11 @@
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp2.0\AboutMeQuiz.deps.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp2.0\AboutMeQuiz.runtimeconfig.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp2.0\AboutMeQuiz.runtimeconfig.dev.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp2.0\AboutMeQuiz.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\bin\Debug\netcoreapp2.0\AboutMeQuiz.pdb
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp2.0\AboutMeQuiz.csprojResolveAssemblyReference.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp2.0\AboutMeQuiz.csproj.CoreCompileInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp2.0\AboutMeQuiz.AssemblyInfoInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp2.0\AboutMeQuiz.AssemblyInfo.cs
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp2.0\AboutMeQuiz.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab-01-AboutMeQuiz\.vs\AboutMeQuiz\AboutMeQuiz\obj\Debug\netcoreapp2.0\AboutMeQuiz.pdb
