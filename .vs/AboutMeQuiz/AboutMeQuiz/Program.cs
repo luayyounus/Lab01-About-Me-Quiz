@@ -65,7 +65,37 @@ namespace AboutMeQuiz
 
         public static bool GameOn()
         {
-            return true;
+            int correctAnswers = 0;
+
+            bool carResult = Car();
+            if (carResult) correctAnswers++;
+
+            int[] result = YearAndMonthMovedToUsa();
+            if (result[0] == 2016 && result[1] == 9)
+            {
+                correctAnswers += 2;
+            }
+            else if (result[0] == 2016)
+            {
+                correctAnswers++;
+            }
+            else if (result[1] == 9)
+            {
+                correctAnswers++;
+            }
+
+            string cartoonResult = FavoriteCartoon();
+            if (cartoonResult == "Tom and Jerry") correctAnswers++;
+
+            int favoriteNumber = FavoriteNumber();
+            if (favoriteNumber == 1) correctAnswers++;
+
+            Console.WriteLine($"\nThat was it! You guessed {correctAnswers} correct and { 5 - correctAnswers} wrong answers" +
+                              "\n Type 'R' Retake the quiz" +
+                              "\n Type anything else to Exit");
+
+            var userInput = Console.ReadLine().ToUpper();
+            return userInput == "R";
         }
 
         public static void GameStart()
