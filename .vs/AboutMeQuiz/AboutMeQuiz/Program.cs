@@ -5,9 +5,19 @@ namespace AboutMeQuiz
 {
     class Program
     {
-        static void Main(string[] args)
+        public static bool Car()
         {
-            GameStart();
+            Console.WriteLine("\nWhat brand was my first car? Pick a Number." +
+                              "\n1) BMW" +
+                              "\n2) Nissan" +
+                              "\n3) Audi\n");
+            var userInput = int.Parse(Console.ReadLine());
+            return userInput == 2;
+        }
+
+        public static bool GameOn()
+        {
+            return true;
         }
 
         public static void GameStart()
@@ -22,9 +32,9 @@ namespace AboutMeQuiz
             Console.Read();
         }
 
-        public static bool GameOn()
+        static void Main(string[] args)
         {
-            return true;
+            GameStart();
         }
     }
 }
