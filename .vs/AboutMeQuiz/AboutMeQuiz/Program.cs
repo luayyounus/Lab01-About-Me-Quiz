@@ -42,6 +42,18 @@ namespace AboutMeQuiz
             return monthAndYear;
         }
 
+
+        public static string FavoriteCartoon()
+        {
+            Console.WriteLine("\nWhat is on of my favorite Cartoons?" +
+                              "\n1) Micky Mouse" +
+                              "\n2) Tom and Jerry" +
+                              "\n3) Toy Story");
+
+            var cartoon = int.Parse(Console.ReadLine());
+            return cartoon == 2 ? "Tom and Jerry" : "Meh";
+        }
+
         public static bool GameOn()
         {
             return true;
